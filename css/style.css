@@ -6,10 +6,17 @@ body{
     margin: 0;
 }
 /* HEADER Styles */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 .header{
     display: flex;
     background-color: black;
     color: white;
+    width: 1321px;
+    height: 646px;
     margin: 50px 140px 130px 140px;
     border-radius: 30px;
     align-items: center;
@@ -42,22 +49,18 @@ body{
 }
 .watch{
     font-size: 14px;
-  transition: font-size 2s 1s;
+  transition: font-size 1s 1s;
 }
 .watch:hover{
      font-size: 24px;
 }
 .head-img{
-    width:40%;
-    border: none;
-    border-left: 150px;
+    width:60%;
+    
+    margin-bottom: -60px;
 }
 /* MAIN SECTION */
-.container{
-    margin-top: 0;
-    margin-right: 10%;
-    align-items: center;
-}
+
 main{
     display: flex;
     flex-direction: column;
@@ -98,7 +101,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     margin-left:520px;
-    margin-right: 100px;
+    margin-right: 160px;
     margin-top: 0;
 }
 .blog{
@@ -135,11 +138,12 @@ main{
     text-decoration: none;  
 }
 
-/*  Footer  */
+/* Footer Styles */
 .footer {
+    text-align: center;
+    padding: 2%;
     background-color: black;
-    margin-top: 100px;
-
+    color: white;
 }
 
 .footer-section {
@@ -169,5 +173,5 @@ hr {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
