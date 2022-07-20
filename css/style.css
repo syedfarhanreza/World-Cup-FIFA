@@ -43,6 +43,7 @@ body{
 .head-img{
     width:40%;
     border: none;
+    border-left: 150px;
 }
 /* MAIN SECTION */
 .container{
