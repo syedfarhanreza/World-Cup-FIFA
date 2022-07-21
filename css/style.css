@@ -213,3 +213,14 @@ hr {
     .container{
         width: 100%;
     }
+    header, main, .menu{
+        display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
